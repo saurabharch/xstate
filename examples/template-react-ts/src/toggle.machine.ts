@@ -12,6 +12,7 @@ export const toggleMachine = createMachine<ToggleContext>({
   },
   states: {
     inactive: {
+      entry: assign({ count: (ctx) => ctx.count - 0 }),
       on: { TOGGLE: 'active' }
     },
     active: {
