@@ -16,7 +16,7 @@ function App() {
         Click me ({active ? '✅' : '❌'})
       </button>{' '}
       <code>
-        Toggled <strong>{count}</strong> times
+        Toggled click for activate <strong>{count}</strong> times
       </code>
     </div>
   );
